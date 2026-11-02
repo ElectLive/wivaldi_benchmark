@@ -15,7 +15,7 @@ Logistics
 
 ..   
 
-* Zenodo data link: https://zenodo.org/records/23351132
+* Zenodo data link:  `https://zenodo.org/records/23778805 <https://zenodo.org/records/23778805?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImMxZjMwOTM1LWVhZGYtNDA2NC05NTMyLTUzZTdmZGJjYzEwNSIsImRhdGEiOnt9LCJyYW5kb20iOiIyNzVmODBmOGJkMDg4MDAzM2IxYWFmNWUzMWRiMTBjZCJ9.Gi8sqjCBkktLV3XT94l-PuUEFZ8EaeamSoHarZ90CYsT20rEwsJh52PpHmDnTkJFq7tmeMyNc5tfFAL6aaDrEQ>`_
 * :doc:`/turbine_model` description
 * :doc:`/submissions`
 * Submission NetCDF template: https://zenodo.org/records/23807317
