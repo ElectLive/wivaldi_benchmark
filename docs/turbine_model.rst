@@ -62,7 +62,7 @@ This files contains Information of
 - chord = chord length in [m]
 - t = thickness in [m]
 
-Scaled rotor geometry (R = 58 m, hub radius = 2.42 m from Enercon E-115 turbine))
+Scaled rotor geometry (R = 58 m, hub radius = 1.5 m from Enercon E-115 turbine))
 
 
 .. list-table::
@@ -494,7 +494,7 @@ The twist angle is kept unchanged:
 
 - first row:
 	- 0 can be ignored
-	- rest: r/R scaled radial positions along the blade, dimensionless, for the Enercon E-115 scaled rotor (R=58m, hub radius=2.42m), detailed description below
+	- rest: r/R scaled radial positions along the blade, dimensionless, for the Enercon E-115 scaled rotor (R=58m, hub radius=1.5m), detailed description below
 	- The corresponding airfoil starts at the value of r/R and is valid until the next value of r/R in the next column is reached.
 
 
@@ -506,7 +506,7 @@ which the individual airfoils are active are adjusted to account for
 the scaled rotor radius and hub radius.
 
 The original rotor has a radius of 63 m and a hub radius of 1.5 m.
-The scaled rotor has a radius of 58 m and a hub radius of 2.42 m.
+The scaled rotor has a radius of 58 m and a hub radius of 1.5 m.
 
 The original airfoil boundaries are scaled by preserving their
 normalized position along the blade span. The normalized blade

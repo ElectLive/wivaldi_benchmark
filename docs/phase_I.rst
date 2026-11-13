@@ -22,10 +22,8 @@ Logistics
 
 ..
 
-* The benchmark is composed of an ensemble of six 10-minute periods with similar characteristics, as described below. You are expected to at least carry out a simulation of the average of all cases. If you model allows and you have the resources, you may also run the individual cases and submit those separately for analyses. 
 
-
-Case Selection and Thresholds
+Case Selection
 -----------------------------
 The benchmark cases are selected based on specific meteorological thresholds to isolate periods of interest that represent distinct atmospheric conditions. 
 
@@ -245,3 +243,18 @@ For a single case-study simulation, we suggest an averaged profile of all cases.
   :width: 80%
 
 The data can be found in the file: *phase1_average_profile.nc*
+
+
+FAQ
+------------------
+
+* Which case do I simulate?
+ * The benchmark is composed of an ensemble of six 10-minute periods with similar characteristics, as described below. You are expected to at least carry out a simulation of the average of all cases. If your model allows and you have the resources, you may also run the individual cases and submit those separately in one file per case as described in the submission instructions. 
+* How do I simulate my inflow?
+ * In general, you are free to simulate it with your own choices. We provide a single inflow profile for each case which we assume to be homogenous across the rotor plane. A common practice would be to stretch the profile across the whole inflow plane. 
+* How do I choose the RPM of the wind turbines?
+ * We provide the wind turbine model which contains a look-up table for RPM over wind speed. Interpolate the data to the wind speed that your simulation produces at each wind turbine location and choose the appropriate RPM accordingly.
+* How do I set up an engineering model?
+ * For engineering models like PyWake, Floris or Foxes, there is the WiValdi_setup.json in the Zenodo repository.
+* How is yaw-misalignment defined?
+ * Nacelle yaw misalignment angles corresponding to each turbine in the layout. The angle offset is specified in clockwise direction, i.e. Ψ\ :sub:`Wind`-Ψ\ :sub:`OPUS`.
